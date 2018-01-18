@@ -9,7 +9,8 @@
     "compile": "NODE_ENV=production parcel build src/index.html -d build/ --public-url ./build --no-cache",
     "build": "rm -rf build && npm run compile && mv build/index.html index.html && cp index.html 404.html",
     "lint": "eslint src --fix",
-    "test": "npm run lint && npm run build"
+    "routes": "mkdir -p topics && cp 404.html topics/404.html",
+    "test": "npm run lint && npm run build && npm run routes"
   },
   "license": "MIT",
   "devDependencies": {

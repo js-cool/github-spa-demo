@@ -11,9 +11,9 @@ export default () => (
     <Navigator />
     <hr />
     <Switch>
-      <Route path="/" render={Home} />
-      <Route path="/about" render={About} />
-      <Route parent path="/topics" render={TopicsView} />
+      <Route path="/github-spa-demo/" render={Home} />
+      <Route path="/github-spa-demo/about" render={About} />
+      <Route parent path="/github-spa-demo/topics" render={TopicsView} />
       <Route render={NoMatch} />
     </Switch>
   </div>

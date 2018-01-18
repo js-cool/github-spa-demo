@@ -18,7 +18,7 @@ export default () => (
     </Switch>
     <hr />
     <footer>
-      返回： <a href="https://leader.js.cool/#/experience/advanced/github-pages-spa-router" target="_blank">leader.js.cool</a> 文章
+      返回： <a href="https://leader.js.cool/#/basic/knowledge/github-pages-spa-router" target="_blank">leader.js.cool</a> 文章
     </footer>
   </div>
 );
